@@ -1,0 +1,76 @@
+html {
+  font-size: 62.5;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.8;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh;
+  width: 20vw;
+  margin: 10% auto;
+  background-color: #f2f3f7;
+  border-radius: 4rem;
+  box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1), 2px 2px 8px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.card__content,
+a:hover span {
+  display: inline-block;
+  transform: scale(0.98);
+}
+.card:hover,
+a:hover {
+  box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
+    inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+    inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+img {
+  width: 5rem;
+  height: 5rem;
+  margin-top: 1.5rem;
+  margin-bottom: auto;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  line-height: 1.5;
+  padding: 1rem 2rem;
+  margin-bottom: auto;
+}
+
+a {
+  position: relative;
+  display: inline-block;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: auto;
+  color: lightslategray;
+  font-size: 1rem;
+  border-radius: 4rem;
+  box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1), 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
