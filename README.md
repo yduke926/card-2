@@ -1,3 +1,4 @@
 # card-2
 
-Card with Inset styling
+Cards
+Made in HTML, CSS Grid, with Neumorphic styling
