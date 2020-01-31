@@ -90,4 +90,8 @@ a {
     grid-template-columns: minmax(40vw, 1fr);
     grid-gap: 2rem;
   }
+
+  .card:first-of-type {
+    margin-top: 10%;
+  }
 }
